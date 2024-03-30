@@ -1,5 +1,5 @@
 import pytest
-from com.jorgeawstest.pychessplayer.play import *
+from com.jorgeawstest.pychessplayer.play import get_board
 
 
 def test_get_board():
