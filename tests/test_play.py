@@ -1,7 +1,7 @@
 import pytest
-# from com.jorgeawstest.pychessplayer.play import *
-from play2 import *
+from com.jorgeawstest.pychessplayer.play import *
+
 
 def test_get_board():
-    value = say_hello()
-    assert value == "hello"    
+    value = get_board()
+    assert value == "aaa"    

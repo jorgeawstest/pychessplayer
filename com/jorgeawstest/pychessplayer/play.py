@@ -3,7 +3,7 @@ import argparse
 def player(movements:str):
     print("inside player")
 
- def get_board():
+def get_board():
     return "aaa"   
 
 if __name__ == "__main__":  # pragma: no cover
