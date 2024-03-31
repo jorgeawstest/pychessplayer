@@ -1,1 +1,1 @@
-python com/jorgeawstest/pychessplayer/play.py movements
+python pychessplayer/play.py movements

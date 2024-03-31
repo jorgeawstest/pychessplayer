@@ -1,5 +1,8 @@
 import pytest
-from com.jorgeawstest.pychessplayer.play import get_board
+import sys
+sys.path.insert(0, "pychessplayer")
+from pychessplayer.play import get_board
+
 
 
 def test_get_board():

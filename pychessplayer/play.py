@@ -1,5 +1,5 @@
 import argparse
-from pieces.pieces import King, Queen, Knight, Rook, Bishop, Pawn
+from pieces import King, Queen, Knight, Rook, Bishop, Pawn
 
 def player(movements:str):
     print("inside player")
