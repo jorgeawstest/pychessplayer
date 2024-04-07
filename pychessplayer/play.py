@@ -1,6 +1,6 @@
 import argparse
 from pieces import King, Queen, Knight, Rook, Bishop, Pawn
-
+from board import Board
 def player(movements:str):
     print("inside player")
     king = King()
@@ -15,6 +15,9 @@ def player(movements:str):
     bishop.move()
     pawn = Pawn()
     pawn.move()
+    board = Board()
+    board.printBoard()
+
 
 def get_board():
     return "aaa"   
