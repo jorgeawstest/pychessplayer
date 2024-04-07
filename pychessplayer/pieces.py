@@ -1,7 +1,8 @@
 class Piece:
     def move(self):
         print(self.name + " moving. My value is " + str(self.value) + " and my initial is: " + self.initial)
-
+    def __str__(self):
+        return f"{self.initial}"
 class King(Piece):
     def __init__(self):
         self.name = "king"
